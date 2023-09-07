@@ -1,0 +1,215 @@
+/* P6.html code */
+.cssColor1{
+    background-color: teal;
+}
+.cssColor2{
+    background-color: blue;
+}
+.cssColor3{
+    background-color: grey;
+}
+.commocCssColors{
+    color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* P7.html */
+.jumbotron{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.cssFont{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+/* p8.html */
+.cssText{
+    text-decoration: underline;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+.cssText>p{
+    text-indent: 100px;
+}
+
+/* p9.html */
+.navBar{
+    background-color: black;
+}
+.navBar>ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navBar>ul>li:hover{
+    background-color: rgb(61, 3, 3);
+}
+.navBar>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+.navBar>ul>li:hover{
+    color: slategray;
+}
+.navBar>img{
+    height: 54px;
+}
+/* p10.html */
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
+.list-marker-position>ol>lo::marker{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* p11.html*/
+.list>ul>li{
+    list-style-image: url(../images/pin.png);
+}
+/*p12.html*/
+.list-shorthand>ul>li{
+    background-color: grey;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* list-style-type:none;
+    list-style-position: inside;
+    list-style-image: url(../images/education.png); */
+    list-style: none inside url(../images/pin.png);
+}
+/* p13.html */
+.empty-cell-table{
+    empty-cells: hide;
+}
+/* p14.html */
+.odd-even-table, .odd-even-table th, .odd-even-table td{
+    border: 1px solid #000;
+    padding: 20px;
+    border-collapse: collapse;
+    color: white;
+}
+.odd-even-table{
+    background-color: aqua;
+}
+.odd-even-table tr:nth-child(even){
+    background-color: rgb(4, 68,68);
+}
+.odd-even-table tr:nth-child(odd){
+    background-color: teal;
+}
+.odd-even-table tr:hover{
+    background-color: yellow;
+}
+.odd-even-table th{
+    background-color: blue;
+}
+.odd-even-table>caption{
+    color: grey;
+    font-weight: bold;
+    caption-side: bottom;
+}
+.odd-even-table td{
+    height: 100px;
+    vertical-align: bottom;
+}
+/* p15.html */
+.layout-table, .layout-table th, .layout-table td{
+    border: 2px solid grey;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.layout-table{
+    width: 20%;
+    table-layout: fixed;
+}
+.layout-table td, .layout-table th{
+    overflow: scroll;
+}
+
+/* p16.html */
+*{
+    padding: 0px;
+    margin: 0%;
+}
+header{
+    background-color: grey;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>img{
+    height: 70px;
+}
+header>nav>ul>li{
+    display: inline-flex;
+    padding: 20px;
+    background-color: grey;
+}
+header>nav>ul>li:hover a{
+    background-color: grey;
+    color: white;
+}
+/* p17.html */
+.banner1{
+    background-color: bisque;
+}
+.bannerCommonClass{
+    color: rgb(150, 57, 57);
+    padding: 30px;
+    height: 60vh;
+    text-align: center;
+}
+.bannerCommonClass>h1{
+    font-size: 50px;
+}
+.bannerCommonClass>h1:hover{
+    color: black;
+}
+/* p18.html*/
+.banner2{
+    background-image: url(../images/maps.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* p19,html */
+.navigation{
+    background-color: red;
+}
+.navigation>ul{
+    list-style-type: disc;
+    float: right;
+}
+.navigation>ul>li{
+    display: inline-block;
+    padding: 28px;
+}
+.navigation>ul>li:hover{
+    background-color: #6b2e11;
+}
+.navigation>ul>li>a{
+    color: white;
+}
+.navigation>ul>li:hover{
+    color: gray;
+}
+.navigation>img{
+    height: 70px;
+}

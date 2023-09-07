@@ -1,0 +1,49 @@
+/* TITLE CODE */
+.jumbotron{
+    background-color: gray;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+/* COMMON CODE */
+.csspadding>h1, .cssBorder>h1, .cssMargin>h1{
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+}
+/* CSS Padding Code */
+.csspadding>h1:nth-child(1){
+    padding: 50px;
+}
+.csspadding>h1:nth-child(2){
+    padding: 25px 75px;
+}
+.csspadding>h1:nth-child(3){
+    padding: 25px 50px 75px;
+}
+.csspadding>h1:nth-child(4){
+    padding: 25px 50px 75px 100px;
+}
+/* CSS Border */
+
+.cssBorder>h1:nth-child(1){
+    border: 5px red solid;
+}
+.cssBorder>h1:nth-child(2){
+    border: 5px;
+    border-color: red blue ;
+    border-style: solid;
+}
+.cssBorder>h1:nth-child(3){
+    border: 5px;
+    border-color: red blue black ;
+    border-style: solid;
+}
+.cssBorder>h1:nth-child(4)
+{
+    border: 5px;
+    border-color: red blue black green;
+    border-style: solid;
+}
