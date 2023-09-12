@@ -1,0 +1,87 @@
+/* p1 */
+.commonAnimation{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 300px;
+}
+.commonAnimation>h1{
+    text-align: center;
+    /* color: white; */
+    font-size: 40px;
+    text-shadow: 3px 3px 3px black;
+}
+.animation{
+    animation: Faizii 10s infinite;
+}
+/* p2 */
+.animation2{
+    background: url(../images/img2.jpg) no-repeat center;
+    background-size: 100%;
+    animation: Faiziii 10s infinite;
+}
+@keyframes Faiziii {
+    from{background: url(../images/img2.jpg) no-repeat left;color: red;}
+    to{background: url(../images/img.jpg) no-repeat right;color: green;}
+}
+/* p3 */
+.animation3{
+    background-color: purple;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    animation: Faiz 10s infinite;
+}
+@keyframes Faiz {
+    0%{
+        top: 0px;
+        left: 0px;
+        background: red;
+        color: black;
+    }
+    25%{
+        top: 0px;
+        left: 600px;
+        background: cadetblue;
+        color: yellow;
+    }
+    50%{
+        top: 600px;
+        left: 300px;
+        background: gray;
+        color: lightsalmon;
+    }
+    75%{
+        top: 300px;
+        left: 0px;
+        background: plum;
+        color: aliceblue;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background: peru;
+        color: lavender;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

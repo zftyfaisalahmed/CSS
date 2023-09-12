@@ -1,0 +1,27 @@
+.fa-youtube{
+    color: grey;
+}
+.tooltip{
+    position: relative;
+}
+.tooltip>span{
+    background-color: wheat;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 8px #ccc;
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    display: none;
+}
+.tooltip:hover span{
+    display: block;
+}
+.tooltip>span::before{
+    content: "";
+    border: 10px;
+    border-style: transparent red transparent transparent;
+    position: absolute;
+    left: -20px;
+}

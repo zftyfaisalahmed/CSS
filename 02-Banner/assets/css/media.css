@@ -1,0 +1,72 @@
+/*Mobile Screen width : 0px to 768px;
+Tab Screen width : 760px to 1200px;
+Desktop Screen width :768px+; */
+
+/* Mobile */
+
+@media(max-width:768px){
+    header{
+        background-color:tomato;
+        padding: 20px;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    header>nav>ul>li{
+        display: inline-block;
+    }
+    header>nav{
+        text-align: center;
+    }
+    .banner1{
+        background-color:seagreen;
+    }
+    .banner2{
+        background-image: url(../images/mobile.jpg);
+    }
+    .banner3{
+        background: linear-gradient(orange,white,green);
+    }
+    .banner4{
+        background: repeating-linear-gradient(45 degree,orange,white,green 50% );
+    }
+    .banner5{
+        
+            background: url(../images/mobile.jpg)no-repeat left, url(../images/mobile1.jpg)no-repeat right;
+            background-size: contain;
+            background-size: 50%;
+        
+    }
+}
+
+/* Tablet version */
+@media(min-width:769px) and (max-width:1200px){
+    header{
+        background-color:wheat;
+        padding: 20px;
+    }
+    header>nav{
+        text-align: center;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    .banner1{
+        background-color: blanchedalmond;
+    }
+    .banner2{
+        background-image: url(../images/tablet.jpg);
+    }
+    .banner3{
+        background: linear-gradient(orange,white,green);
+    }
+    .banner4{
+        background: repeating-linear-gradient(45 deg,orange,white,green 50% );
+    }
+    .banner5{
+        background: url(../images/tablet.jpg)no-repeat left, url(../images/tablet1.jpg)no-repeat right;
+        background-size: contain;
+        background-size: 50%;
+    
+}
+}

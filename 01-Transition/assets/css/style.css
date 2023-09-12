@@ -1,0 +1,62 @@
+/* p1 */
+section{
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+}
+.transition:hover{
+    background-color: grey;
+    color: white;
+}
+.transition{
+    transition: color 2000ms;
+    transition: backgroung-color calc(1s = 1s);
+}
+/* p2 */
+.bgClip{
+    border: 5px dotted grey;
+    border-radius: 10px;
+    text-align: justify;
+    transition: 2s;
+    background-clip: border-box;
+    background-clip: content-box;
+    background-clip: padding-box;
+}
+.bgClip:hover{
+    border-radius: 50%;
+    text-align: center;
+}
+/* p3 */
+.common{
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    background-color: crimson;
+    color: white;
+    transition: width 2s;
+}
+.common:hover{
+    width: 100px;
+    background-color: gold;
+}
+#d1{
+    transition-timing-function: linear;
+}
+#d2{
+    transition-timing-function: ease-in;
+}
+#d3{
+    transition-timing-function: ease-out;
+}
+#d4{
+    transition-timing-function: ease;
+}
+#d5{
+    transition-timing-function: ease-in-out;
+}
+#d6{
+    transition-timing-function: steps(6,jump-both);
+}
+#d7{
+    transition-timing-function: cubic-bezier(0.5,0.7,0.8,0.1);
+}
