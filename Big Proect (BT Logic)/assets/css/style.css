@@ -96,10 +96,13 @@
 }
 /* colors */
 .bg-yellow{
-    background: yellow ;
+    background: yellow;
 }
 .bg-white{
-    background: white ;
+    background: white;
+}
+.bg-lightgrey{
+    background: #f4f4f4;
 }
 .bg-grey{
     background: grey;
@@ -161,7 +164,6 @@ header>nav>ul>li>a {
 }
 header>nav>ul>li:hover a {
     color: rgb(198,0,0);
-
 }
 header>nav>img {
     height: 56px;
@@ -211,13 +213,14 @@ header>nav>img {
  }
 
  /* Tablet */
+
  .tablet-banner {
     overflow: hidden;
     position: relative;
  }
  .tablet-banner>video {
-    /* width: 100%; */
-    object-fit: cover;
+    width: 100%;
+    object-fit: 100%;
  }
  .tablet-banner>div {
     position: absolute;
@@ -249,17 +252,19 @@ header>nav>img {
  }
 
  
- /* /CONSULTING AGENCY/ */
+ /* CONSULTING AGENCY */
    .ceo {
-    background: url(c:\Users\DELL\OneDrive\Pictures\ceo.jpeg) no-repeat center;
+    background: url(../images/img2.jpg) no-repeat center;
     background-size: cover;
     height: 563px;
+    width: 568px;
     color: #fff;
     display: flex;
     flex-flow: row wrap;
     align-items: flex-end;
    }
-   .ceo {
+
+    .ceo,
     .consulting,
     .consulting-box1,
     .consulting-box2 {
@@ -270,7 +275,7 @@ header>nav>img {
         padding: 30px;
     }
 
-   }
+   
    .title>p, .consulting>p { color: grey;}
    .title>h1 { font-size:30px;}
    .consulting-box1{ background-color: #dc3748;}
@@ -283,7 +288,7 @@ header>nav>img {
    .consulting-box1:hover{background-color: #f8bf0d;color: #dc3748;}
    .consulting-box2:hover{background-color: #dc3748;color: #f8bf0d;}
    .consulting-box1>button{
-    background-color: rgb 244,192,12;
+    background-color: #f03e50;
     padding: 15px 20px;
     border: none;
     border-radius: 50px;
@@ -293,7 +298,9 @@ header>nav>img {
     cursor: pointer;
    }
    .consulting-box1:hover button {background-color: #dc3748;color: #fff;}
-   /* /HOW CAN WE HELP YOU/ */
+
+
+   /* HOW CAN WE HELP YOU */
    .box {
     padding: 20px;
     border-left: 8px solid grey;
@@ -306,16 +313,18 @@ header>nav>img {
    }
    .box:hover h1{color: #f8bf0d;}
    .how-can-we-help-you>img{
-    width: 100%;
-    height: 355px;
-    margin-bottom: 20px;
+    width: 350px;
+    height: 450px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0,0.16), 0 3px 6px rgba(0, 0, 0,0.23);
    }
-   .img-box1{background-color: url(assets/images/image1.jpeg);}
-   .img-box2{background-color: url(assets/images/image2.jpeg);}
-   .img-box3{background-color: url(assets/images/image3.jpeg);}
-   .img-box4{background-color: url(assets/images/image4.jpeg);}
-   .img-box5{background-color: url(assets/images/image6.jpeg);}
-   .img-position{
+   .img-box1{background: url(../images/girl4.jpg);}
+   .img-box2{background: url(../images/girl2.jpg);}
+   .img-box3{background: url(../images/girl3.jpg);}
+   .img-box4{background: url(../images/girl.jpg);}
+   .img-box5{background: url(../images/girl5.jpg);}
+   .img-position{   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -327,11 +336,11 @@ header>nav>img {
     justify-content: space-between;
     align-items: flex-end;
     transition: 1s;
-    
-   }
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
    .img-position:hover{
-    background-color: linear-gradient( rgba 220, 55, 72,0.8, rgba(244, 192, 12, 0.8)), url
-   (\Users\DELL\OneDrive\Pictures\ceo jpg) no-repeat center;   
+    background: linear-gradient( rgba(131, 32, 42, 0.8), rgba(244, 192, 12, 0.8)), url(../images/img2.jpg) no-repeat center;   
+    background-size: cover;
 }
 .img-position>div>.fa-hand-pointer{
   background-color: #dc3748;
@@ -346,14 +355,15 @@ header>nav>img {
     background-color: #f8bf0d;
 }
 
+
 /* /FOOTER/ */
 footer{
     background: #f8bf0d;
 }
-footer form>div>input, footer form>div>textarea{
+footer form>div>input, footer form>textarea{
     background-color: transparent ;
     border: none ;
-    border-bottom: 2px soli #fff;
+    border-bottom: 2px solid #fff;
     padding-bottom: 20px;
     margin: 0px 10px 20px 0px;
     outline: none;
