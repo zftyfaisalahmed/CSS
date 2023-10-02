@@ -1,0 +1,280 @@
+@media(max-width:992px) {
+    [class*="col"] {
+        width: 100%;
+    }
+
+    /* navbar */
+    header>nav {
+        text-align: center;
+    }
+
+    header>nav>ul {
+        float: none;
+    }
+
+    header>nav>ul>li {
+        display: block;
+    }
+    
+
+    .respon{
+        align-items: center;
+    }
+    .respon .form-control{
+        align-items: center;
+        /* align-items: self-start; */
+    }
+    .newsletter{
+        display: none;
+    }
+}
+
+@media(min-width: 993px) and (max-width: 1200px) {
+    /* GRID */
+    .colTab1 {
+        width: 8.33%
+    }
+
+    .colTab2 {
+        width: 16.66%;
+    }
+
+    .colTab3 {
+        width: 25%;
+    }
+
+    .colTab4 {
+        width: 33.33%;
+    }
+
+    .colTab5 {
+        width: 41.66%;
+    }
+
+    .colTab6 {
+        width: 50%;
+    }
+
+    .colTab7 {
+        width: 58.33%;
+    }
+
+    .colTab8 {
+        width: 66.66%;
+    }
+
+    .colTab9 {
+        width: 75%;
+    }
+
+    .colTab10 {
+        width: 83.33%;
+    }
+
+    .colTab11 {
+        width: 99.66%;
+    }
+
+    .colTab12 {
+        width: 100%;
+    }
+
+    [class*="colTab"] {
+        float: left;
+        padding: 10px;
+    }
+
+    /* navbar */
+    header>nav {
+        text-align: center
+    }
+
+    header>nav>ul {
+        float: none;
+    }
+
+
+    .desktop-banner,
+    .mobile-banner {
+        display: none;
+    }
+
+    .tablet-banner {
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .tablet-banner>video {
+        width: 100%;
+    }
+
+    .tablet-banner>div {
+        position: absolute;
+        top: 20%;
+        left: 4%;
+        color: #fff;
+        line-height: 1.5;
+    }
+
+    .tablet-banner>div>p,
+    .tablet-banner>div>button {
+        font-size: 20px;
+    }
+
+    .tablet-banner>div>h1 {
+        font-size: 55px;
+    }
+
+    .tablet-banner>div>button {
+        padding: 20px;
+        margin: 20px auto;
+        background-color: #dc3748;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .newsletter .form-control{
+        background-color: transparent;
+        border: none;
+        /* border-radius: 0px; */
+        /* color: #ffffff; */
+        font-size: 20px;
+        font-weight: 400;
+        height: 50px;
+        border: none;
+        width: 600px;
+        margin-top: 40px;
+        /* line-height: 100px; */
+        transition: all 1s ease-in-out;
+        margin-bottom: 20px;
+    }
+
+    .home{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+/*---------------------------------------
+   Mobile Responsive         
+-----------------------------------------*/
+@media (max-width: 1200px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 980px) {
+  
+    h1 {
+      font-size: 38px;
+    }
+    
+    .section-btn {
+      padding: 10px 34px 12px;
+    }
+  
+    #home, #home .overlay {
+      height: 60vh;
+    }
+  
+    #home .home-thumb {
+      padding-top: 0px;
+    }
+  
+    #about {
+      text-align: center;
+    }
+  
+    #about .about-thumb {
+      margin-top: 62px;
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    .section-title {
+      padding-bottom: 32px;
+    }
+  
+    #about, #divider,
+    #screenshot,
+    #pricing, #newsletter {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  
+  }
+  
+  @media (max-width: 767px) {
+  
+     body {
+      padding-top: 0px;
+      text-align: center;
+    }
+  
+    .navbar-default {
+      text-align: center;
+      padding-top: 0px;
+    }
+  
+    .navbar-default .navbar-brand {
+      line-height: 20px;
+    }
+  
+    .navbar-default .navbar-nav li a {
+      line-height: 25px;
+    }
+  
+    #home, #home .overlay {
+      height: 100vh;
+    }
+  
+    #home img {
+      position: relative;
+      display: inline-block;
+    }
+  
+    #home .home-thumb {
+      padding-top: 32px;
+      padding-left: 0px;
+    }
+  
+    #pricing .pricing-plan {
+      margin-bottom: 62px;
+    }
+  
+  }
+  
+  @media (max-width: 650px) {
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  
+  }
